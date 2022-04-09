@@ -1,10 +1,10 @@
-nclude <stdio.h>
+#include <stdio.h>
 
 /**
- *   * main 
- *     *
- *       * Return: Always (Success)
- *         */
+ ** main - Entry point
+ *
+ ** Return: Always 0 (Success)
+ */
 int main(void)
 {
 	char c;
@@ -12,7 +12,8 @@ int main(void)
 	for (c = 'a'; c <= 'z'; c++)
 	{
 		if (c != 'e' && c != 'q')
-		{																putchar(c);
+		{
+			putchar(c);
 		}
 	}
 
