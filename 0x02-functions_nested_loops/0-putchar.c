@@ -5,7 +5,7 @@
  * Description:print -putchar in a new line
  * Return:this program returns zero
  */
-char main(void)
+int main(void)
 
 {
 	_putchar('_');
