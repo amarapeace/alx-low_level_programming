@@ -1,8 +1,8 @@
-include "main.h"
+#include "main.h"
 
 /**
  * _isalpha - Checks if a character is alphabetic
- *
+ * @c: contains value to be compared
  * Return: 1 if character is letter, lowercase or uppercase, 0 otherwise
  */
 int _isalpha(int c)
