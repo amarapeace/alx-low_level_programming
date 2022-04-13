@@ -1,14 +1,15 @@
 #include "main.h"
 
 /**
- * main - check the code
- *
- * Return: Always 0.
+ * add - a program that adds two integers
+ * @i: first integer value
+ * @k: second integer value to be added
+ * Return: i + k
  */
 int add(int i, int k)
 {
 
-	    return (i + k);
+return (i + k);
 
 }
 
