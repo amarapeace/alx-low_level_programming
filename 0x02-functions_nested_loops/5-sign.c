@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * print_sign - Prints the sign of a number
+ * print_sign - Prints the sign of a number, 0
  * @n: function parameter of type int
- * Return: returns 1 and print + if n is greater than zero
+ * Return: Always 0
  * returns 0 and prints 0 if n is zero
  * returns -1 and prints - if n is less than zero
  */
@@ -11,7 +11,7 @@ int print_sign(int n)
 
 {
 	int test;
-	if (n > o)
+	if (n > io)
 	{
 		test = 1;
 		_putchar('+');
