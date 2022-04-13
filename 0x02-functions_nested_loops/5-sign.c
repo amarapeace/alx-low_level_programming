@@ -4,6 +4,8 @@
  * print_sign - Prints the sign of a number
  * @n: function parameter of type int
  * Return: returns 1 and print + if n is greater than zero
+ * returns 0 and prints 0 if n is zero
+ * returns -1 and prints - if n is less than zero
  */
 int print_sign(int n)
 
