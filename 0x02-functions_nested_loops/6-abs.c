@@ -8,14 +8,17 @@
  */
 int _abs(int n)
 {
-	int n;
-	{
-	if (n >= 0)
+	int r;
 
+	if (n > 0)
+	{
 	return (n);
 	}
-	else
-		return (-n);
-	return (0);
+	else if (n < 0)
+	{
+		r = n * -1;
+		return (r);
+	}
+	return (n);
 }
 
