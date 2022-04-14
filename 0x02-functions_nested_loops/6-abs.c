@@ -2,10 +2,11 @@
 
 /**
  * _abs - Computes the absolute vvalue of an integer
- * @n - value considered for absolute
+ * Description : function that computes absolute value
+ * @n : input parameter considered for absolute
  * Return: The absolute value of n
  */
-int _abs(int )
+int _abs(int n)
 {
 	int n;
 	{
