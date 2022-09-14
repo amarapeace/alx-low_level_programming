@@ -1,8 +1,7 @@
 CC = gcc
-SRC = holberton.c main.c
-OBJ = $(SRC:%.c=%.o)
-NAME = holberton
-%.o: %.c m.h
-	$(CC) -c -o $@ $<
+SRC = main.c school.c
+OBJ = $(SRC:c=o) #This replaces all occurences of .c pattern with .o in SRC
+NAME = school
+
 all: $(OBJ)
 	$(CC) $(OBJ) -o $(NAME)
